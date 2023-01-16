@@ -1,0 +1,82 @@
+img{
+    width: 20%;
+    border-radius:90px;
+}
+
+body{
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: sans-serif;
+    color: blue;
+}
+.form{
+    padding: 10px;
+}
+
+.container{
+    max-width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.link{
+     margin: 0 auto;
+     padding: 20px;
+}
+
+input{
+    cursor: pointer;
+    text-align:center;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+a,span{
+    color: brown;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border-radius: 3px;
+}
+
+
+p,h1,h3{
+     font: size 1.5em;    
+}
+
+ul,li{
+    font-size: 1.5em;
+    color: black;
+    list-style: none;
+}
+
+h1{animation:slide 5 reverse image infinite 1s 120s}
+@keyframes slide {
+    20%{color: blueviolet;}
+    40%{ color: brown;}
+    
+}
+.container{animation:slide 160s alternate 1  ease-in}
+@keyframes slide{
+        20%{
+            background-color:lawngreen;
+        }  
+        40%{
+            background-color:lightseagreen;
+            color: whitesmoke;
+        }
+        60%{
+            background-color: pink;
+        }
+        80%{
+            background-color: whitesmoke;
+            color: black;
+        }
+}
